@@ -26,9 +26,9 @@ const reverse = (str) => {
 };
 ```
 ## Education:
-1.[CS50](https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
-2.[HTML and CSS course](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
-3.[JS:learn](https://learn.javascript.ru/)
+1. [CS50](https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
+2. [HTML and CSS course](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
+3. [JS:learn](https://learn.javascript.ru/)
 ## Languages:
--English: A2
--Russian: Native
+- English: A2
+- Russian: Native
