@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+	font-family: Lato;
+	height: 100%;
+}
+
+.central-container {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+/*-------------------------------------------Header-----------------------------------------------*/
+.header {
+}
+.header__container {
+	max-width: 900px;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+@media (max-width: 665px) {
+	.header__container {
+		justify-content: center;
+	}
+}
+.header__info {
+	flex: 0 1 60%;
+}
+@media (max-width: 840px) {
+	.header__info {
+		text-align: center;
+	}
+}
+.info > h1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 28px;
+	color: #101214;
+	margin-bottom: 40px;
+}
+.info__contacts {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+@media (max-width: 840px) {
+	.info__contacts > div {
+		flex: 1 0 100%;
+	}
+}
+.contacts__menu > li:not(:last-child) {
+	margin-bottom: 20px;
+}
+@media (max-width: 840px) {
+	.contacts__menu > li {
+		margin-bottom: 20px;
+	}
+}
+.contacts__menu > li:hover {
+	text-decoration: underline;
+}
+.contacts__item {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 18px;
+	color: #000000;
+}
+@media (max-width: 436px) {
+	.contacts__item {
+		font-size: 14px;
+	}
+}
+.contacts__item > img {
+	margin-right: 15px;
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+}
+
+.header__photo > img {
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+
+.header__photo > img:hover {
+	transform: scale3d(1.2, 1.2, 1.2);
+}
