@@ -9,7 +9,7 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
 		rel="stylesheet" />
-		<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,14 +22,18 @@
 						<nav class="info__contacts contacts">
 							<div>
 								<ul class="contacts__menu">
-									<li class="contacts__item item-phone"><img src="./image/phone.svg" alt="" width="20" height="20"> 89376526333</li>
-									<li class="contacts__item item-mail"><img src="./image/email.svg" alt="" width="20" height="20">Egorpalan@yandex.ru</li>
+									<li class="contacts__item item-phone"><img src="./image/phone.svg" alt="" width="20"
+											height="20"> 89376526333</li>
+									<li class="contacts__item item-mail"><img src="./image/email.svg" alt="" width="20"
+											height="20">Egorpalan@yandex.ru</li>
 								</ul>
 							</div>
 							<div>
 								<ul class="contacts__menu">
-									<li class="contacts__item item-place"><img src="./image/location.svg" alt="" width="20" height="20">Samara, Russia</li>
-									<li class="contacts__item item-telegramm"><img src="./image/telegram.png" alt="" width="20" height="20">@Epalor</li>
+									<li class="contacts__item item-place"><img src="./image/location.svg" alt="" width="20"
+											height="20">Samara, Russia</li>
+									<li class="contacts__item item-telegramm"><img src="./image/telegram.png" alt="" width="20"
+											height="20">@Epalor</li>
 								</ul>
 							</div>
 						</nav>
@@ -40,6 +44,77 @@
 					<img src="./image/Line.svg" alt="">
 				</section>
 			</header>
+			<main class="main">
+				<div class="main__container">
+					<section class="main__aboutme">
+						<h2>About me</h2>
+						<img src="./image/Line2.svg" alt="">
+						<p>I am 18 years old. Now I study at the Faculty of Petroleum, but the work of a front-end developer
+							attracts me more.I like to study and learn something new. I can’t imagine my life without learning
+							something new every day.</p>
+					</section>
+					<section class="main__education education">
+						<h2>Education</h2>
+						<img src="./image/Line2.svg" alt="">
+						<div class="education__wrapper">
+							<section class="education__university">
+								<h3>University</h3>
+								<p>Samara State Technical University</p>
+								<p>Specialization: Operation and maintenance of oil production facilities</p>
+								<p>Years: 2021 - 2025</p>
+							</section>
+							<section class="education__courses">
+								<h3>Courses</h3>
+								<ul>
+									<li><a href="https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5"
+											target="blank">- CS50</a></li>
+									<li><a href="https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr"
+											target="blank">- HTML and CSS course</a></li>
+									<li><a href="https://learn.javascript.ru/" target="blank">- Learning Java Script</a></li>
+								</ul>
+							</section>
+						</div>
+					</section>
+					<section class="main__code code">
+						<h2>Code example</h2>
+						<img src="./image/Line2.svg" alt="">
+						<code>
+							<pre>
+const reverse = (str) => {
+	let j = 0;
+	let result = '';
+	while (j < str.length) {
+	 result = `${str[j]}${result}`;
+	  j = j + 1;
+		}
+								 
+		return result;
+ };
+							</pre>
+						</code>
+					</section>
+					<section class="main__skills">
+						<section class="skills">
+							<h2>Skills</h2>
+							<img src="./image/Line2.svg" alt="">
+							<ul>
+								<li><img src="./image/html.png" alt="" width="12" height="12"> HTML</li>
+								<li><img src="./image/css-3.png" alt="" width="12" height="12">CSS</li>
+								<li><img src="./image/sass.png" alt="" width="12" height="12">SCSS</li>
+								<li><img src="./image/github.png" alt="" width="12" height="12">Git/GitHub</li>
+							</ul>
+						</section>
+						<section class="languages">
+							<h2>Languages</h2>
+							<img src="./image/Line2.svg" alt="">
+							<ul>
+								<li>- English(A2)</li>
+								<li>- Russian(Native)</li>
+							</ul>
+						</section>
+					</section>
+				</div>
+			</main>
 		</div>
 	</div>
 </body>

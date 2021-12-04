@@ -61,6 +61,10 @@ button::-moz-focus-inner {
 	border: 0;
 }
 
+ul li {
+	list-style: none;
+}
+
 a,
 a:visited {
 	text-decoration: none;
@@ -68,10 +72,6 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-}
-
-ul li {
-	list-style: none;
 }
 
 img {
@@ -96,8 +96,9 @@ body {
 }
 
 .central-container {
-	max-width: 1050px;
+	max-width: 900px;
 	margin: 0 auto;
+	box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%)
 }
 .wrapper {
 	display: flex;
@@ -148,8 +149,7 @@ body {
 		flex: 1 0 100%;
 	}
 }
-.contacts__menu{
-	
+.contacts__menu {
 }
 .contacts__menu > li:not(:last-child) {
 	margin-bottom: 20px;
@@ -157,6 +157,7 @@ body {
 @media (max-width: 840px) {
 	.contacts__menu > li {
 		margin-bottom: 20px;
+		list-style: none;
 	}
 }
 .contacts__menu > li:hover {
@@ -193,8 +194,157 @@ body {
 .header__photo > img:hover {
 	transform: scale3d(1.2, 1.2, 1.2);
 }
-.header__container>img{
+.header__container > img {
 	object-fit: cover;
 	max-width: 100%;
 	height: auto;
+}
+
+/*------------------------------MAIN---------------------------------------------------*/
+.main {
+	flex: 1 1 auto;
+}
+.main__container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.main__aboutme {
+	margin-bottom: 60px;
+}
+.main__aboutme > img {
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+}
+.main__aboutme > h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.main__aboutme > p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 31px;
+	margin-bottom: 0px;
+}
+
+.main__education > h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.main__education {
+	margin-bottom: 50px;
+}
+.education__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.education__university {
+	margin-right: 40px;
+}
+.education__university > h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+.education__university > p:not(:last-child) {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+.education__university {
+	margin-bottom: 15px;
+}
+.education__university {
+}
+.education__courses > h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+.education__courses > ul > li:not(:last-child) {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+.education__courses > ul > li > a {
+	color: #000000;
+}
+.education__courses > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+.main__code > h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.main__code{
+	margin-bottom: 50px;
+}
+.code {
+}
+pre {
+	padding: 20px;
+	background-color: #dcdcdc;
+	max-width: auto;
+	object-fit: cover;
+}
+
+.main__skills {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.skills>h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.skills>ul>li:not(:last-child) {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.skills>ul>li>img {
+	margin-right: 15px;
+}
+.languages>h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.languages>ul>li:not(:last-child) {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.languages {
 }
