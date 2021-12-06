@@ -306,11 +306,12 @@ body {
 	margin-bottom: 50px;
 }
 .code {
+
 }
 pre {
 	padding: 20px;
 	background-color: #dcdcdc;
-	max-width: auto;
+	max-width: 100%;
 	object-fit: cover;
 }
 
